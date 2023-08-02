@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @apply bg-gray-200
+}
+
+.box {
+  @apply py-5 px-8 text-black rounded-xl shadow-xl text-2xl font-bold
+}
+
+.btn {
+  @apply p-5 bg-clairBlue text-white rounded-lg font-bold
+}
